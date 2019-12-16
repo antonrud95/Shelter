@@ -10,7 +10,8 @@ box-sizing: border-box;
 /* Header */
 
 .header {
-    background: url(..//img/bgheader.jpg) center no-repeat / cover;
+    background: url(..//img/bgheader.jpg) center no-repeat;
+    background-size: cover; 
 }
 .headerlogo__title {
     font-size: 32px;
