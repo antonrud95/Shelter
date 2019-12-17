@@ -205,3 +205,30 @@ box-sizing: border-box;
     text-align: center;
     padding-bottom: 65px;
 }
+
+/* Help section */
+.section__help {
+    background-color: #fafafa;
+}
+.logos__help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -15px;
+    text-align: center;
+}
+.logos__item {
+    padding: 0 50px;
+}
+.logos__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.logos__help {
+    padding-bottom: 75px;
+}
+.logos__text {
+    text-align: center;
+}
