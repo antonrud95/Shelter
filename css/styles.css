@@ -218,6 +218,15 @@ box-sizing: border-box;
     margin: 0 -15px;
     text-align: center;
 }
+.help__title {
+    font-family: 'Georgia', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    color: #545454;
+    line-height: 1.6;
+    padding: 60px 0;
+}
 .logos__item {
     padding: 0 50px;
 }
@@ -231,4 +240,37 @@ box-sizing: border-box;
 }
 .logos__text {
     text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logos__item {
+        width: 33.33333%;
+    }
+    .logos__img {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .logos__item {
+        width: 50%;
+    }
+    .logos__img {
+        margin: 0 auto;
+    }
+    
+}
+@media (max-width: 575.98px) {
+    .logos__item {
+        width: 100%;
+    }
+    .logos__img {
+        margin: 0 auto;
+    }
+    .shelter__title {
+        font-size: 25px;
+    }
+    .help__title {
+        padding: 20px 0;
+    }
 }
